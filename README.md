@@ -1,32 +1,74 @@
 # 🟢 Direct Order on WhatsApp for WooCommerce
 
-A simple and powerful plugin to allow customers to place orders directly via WhatsApp from product pages.
+A powerful WooCommerce plugin that allows customers to place orders instantly via WhatsApp with customizable settings and dynamic control.
 
 ---
 
 ## 📌 Overview
 
-This plugin adds an **"Order on WhatsApp"** button on WooCommerce product pages, allowing customers to directly contact the store owner with product details.
+This plugin adds an **"Order on WhatsApp"** button to your WooCommerce store, allowing customers to directly contact you with product details.
 
-No checkout, no cart — just instant communication.
+Now comes with a **settings panel**, so you can control where the button appears and set your own WhatsApp number.
 
 ---
 
 ## ✨ Features
 
-* ✅ Add WhatsApp button on WooCommerce product page
-* ✅ Auto-fill product details in WhatsApp message
+* ✅ Add WhatsApp button to:
+
+  * Product Page
+  * Shop Page
+  * Cart Page
+
+* ✅ **Admin Settings Panel**
+
+  * Set dynamic WhatsApp number
+  * Enable/disable button on different pages
+
+* ✅ Auto-generated WhatsApp message with:
+
+  * Product Name
+  * Price
+  * SKU
+  * Quantity
+  * Product Link
+
+* ✅ No checkout required
+
 * ✅ Direct customer-to-admin communication
-* ✅ No checkout or payment gateway required
+
 * ✅ Reduces fake orders & cart abandonment
-* ✅ Lightweight and fast
-* ✅ Easy to setup (no configuration required)
+
+* ✅ Lightweight & fast
+
+---
+
+## ⚙️ Settings Options
+
+After activating the plugin:
+
+* Go to **WordPress Dashboard → Settings → WhatsApp Order**
+* Configure:
+
+  * 📱 WhatsApp Number
+  * ☑ Show on Product Page
+  * ☑ Show on Shop Page
+  * ☑ Show on Cart Page
+
+---
+
+## ⚙️ How It Works
+
+1. Customer visits your store
+2. Clicks on **"Order on WhatsApp"**
+3. WhatsApp opens with pre-filled product details
+4. Customer sends message and confirms order
 
 ---
 
 ## 📸 Screenshot
 
-![Product Page with WhatsApp Button](./screenshot.png)
+![WhatsApp Order Button](./screenshot.png)
 
 ---
 
@@ -39,19 +81,10 @@ No checkout, no cart — just instant communication.
 
 ---
 
-## ⚙️ Usage
-
-1. Activate the plugin
-2. Open any WooCommerce product page
-3. Click on **"Order on WhatsApp"**
-4. Customer is redirected to WhatsApp with product details
-
----
-
 ## 🛠 Tech Stack
 
 * PHP
-* WordPress Hooks
+* WordPress Hooks & Settings API
 * WooCommerce
 * JavaScript
 
@@ -59,21 +92,19 @@ No checkout, no cart — just instant communication.
 
 ## 👨‍💻 Author
 
-Smit Jadav 
+**Smit Jadav**
+
+---
+
+## 🚀 Future Improvements
+
+* Custom message template
+* Multiple WhatsApp agents
+* Order history/log system
+* Payment integration
 
 ---
 
 ## ⭐ Support
 
-If you like this plugin, please give it a ⭐ on GitHub!
-
----
-
-## 💡 Future Improvements
-
-* Admin settings panel
-* Custom WhatsApp number
-* Order tracking system
-* Payment integration
-
----
+If you like this plugin, give it a ⭐ on GitHub!
